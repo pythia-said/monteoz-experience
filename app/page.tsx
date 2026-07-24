@@ -134,10 +134,8 @@ export default function Home() {
                 Eine Welt im Werden
               </p>
               <h1>
-                Ein kleiner Hügel.
-                <br />
-                Eine lebendige Welt.
-                <br />
+                <span>Ein kleiner Hügel.</span>
+                <span>Eine lebendige Welt.</span>
                 <em>Ein Neuanfang.</em>
               </h1>
               <p className="hero-intro">

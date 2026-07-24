@@ -412,21 +412,27 @@ summary {
   position: relative;
   z-index: 2;
   display: grid;
-  min-height: 690px;
-  grid-template-columns: minmax(0, 0.95fr) minmax(420px, 0.88fr);
+  min-height: 560px;
+  grid-template-columns: minmax(650px, 1.2fr) minmax(360px, 0.65fr);
   align-items: center;
   gap: clamp(36px, 5vw, 68px);
-  padding-block: clamp(48px, 7vh, 76px) 54px;
+  padding-block: clamp(36px, 5vh, 56px) 36px;
 }
 
 .hero-copy h1 {
   max-width: 780px;
   margin: 0;
   font-family: var(--serif);
-  font-size: clamp(3.5rem, 6.9vw, 7.1rem);
+  font-size: clamp(3.35rem, 4.7vw, 5.45rem);
   font-weight: 400;
-  letter-spacing: -0.055em;
-  line-height: 0.91;
+  letter-spacing: -0.05em;
+  line-height: 0.95;
+}
+
+.hero-copy h1 > span,
+.hero-copy h1 > em {
+  display: block;
+  white-space: nowrap;
 }
 
 .hero-copy h1 em {
@@ -529,7 +535,7 @@ summary {
 
 .diorama-frame {
   position: relative;
-  min-height: 460px;
+  min-height: 400px;
   overflow: hidden;
   border: 1px solid rgba(41, 42, 33, 0.18);
   border-radius: 48% 48% 28px 28px;
@@ -825,14 +831,14 @@ summary {
 
 .section {
   position: relative;
-  padding-block: clamp(68px, 8vw, 105px);
+  padding-block: clamp(42px, 4vw, 56px);
 }
 
 .section h2,
 .closing h2 {
   margin: 0;
   font-family: var(--serif);
-  font-size: clamp(2.75rem, 5.3vw, 5.4rem);
+  font-size: clamp(2.5rem, 4.4vw, 4.7rem);
   font-weight: 400;
   letter-spacing: -0.047em;
   line-height: 1;
@@ -867,7 +873,7 @@ summary {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 1px;
-  margin-top: clamp(48px, 6vw, 72px);
+  margin-top: clamp(36px, 4vw, 52px);
   border: 1px solid var(--line);
   background: var(--line);
 }
@@ -944,7 +950,7 @@ summary {
 .wide-quote {
   position: relative;
   max-width: 900px;
-  margin: clamp(64px, 7vw, 90px) auto 0;
+  margin: clamp(48px, 5vw, 70px) auto 0;
   padding: 0;
   color: var(--olive-dark);
   font-family: var(--serif);
@@ -1565,20 +1571,23 @@ footer {
   letter-spacing: 0.04em;
 }
 
-@media (max-width: 1020px) {
+@media (max-width: 1180px) {
   .hero-layout {
     grid-template-columns: 1fr;
+    min-height: auto;
   }
 
   .hero-copy {
     max-width: 800px;
-    padding-top: 36px;
   }
 
   .hero-diorama {
     width: min(100%, 650px);
     margin: 0 auto;
   }
+}
+
+@media (max-width: 1020px) {
 
   .split-heading,
   .prototype-head {
@@ -1622,7 +1631,7 @@ footer {
   }
 
   .nav-shell {
-    min-height: 70px;
+    min-height: 64px;
   }
 
   .desktop-nav,
@@ -1635,17 +1644,22 @@ footer {
   }
 
   .hero {
-    padding-top: 70px;
+    padding-top: 64px;
   }
 
   .hero-layout {
     min-height: auto;
-    gap: 40px;
-    padding-block: 48px;
+    gap: 28px;
+    padding-block: 34px;
   }
 
   .hero-copy h1 {
-    font-size: clamp(3.25rem, 15.4vw, 5.25rem);
+    font-size: clamp(2.9rem, 12vw, 4.1rem);
+  }
+
+  .hero-copy h1 > span,
+  .hero-copy h1 > em {
+    white-space: normal;
   }
 
   .hero-actions {
@@ -1662,7 +1676,7 @@ footer {
   }
 
   .diorama-frame {
-    min-height: 360px;
+    min-height: 320px;
   }
 
   .hero-manifesto {
@@ -1771,11 +1785,11 @@ footer {
   }
 
   .hero-copy h1 {
-    font-size: 3.18rem;
+    font-size: 2.9rem;
   }
 
   .diorama-frame {
-    min-height: 320px;
+    min-height: 290px;
     border-radius: 45% 45% 20px 20px;
   }
 
@@ -1788,12 +1802,12 @@ footer {
   }
 
   .section {
-    padding-block: 64px;
+    padding-block: 42px;
   }
 
   .section h2,
   .closing h2 {
-    font-size: 2.85rem;
+    font-size: 2.55rem;
   }
 }
 
