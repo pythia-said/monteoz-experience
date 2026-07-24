@@ -350,7 +350,7 @@ export default function Home() {
                   <em>Erlebnisprototyp</em>
                 </div>
                 <img
-                  src="/images/water-thread-etappe-a.png"
+                  src="./images/water-thread-etappe-a.png"
                   alt="Der Wasserfaden-Prototyp zeigt einen mediterranen Hang mit Wetterschutz, Olivenbaum, Weg und einem alten Wasserregler."
                   loading="lazy"
                 />
