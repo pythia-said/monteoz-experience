@@ -4,7 +4,7 @@ Der öffentliche Showcase für **Monte OZ — The Rebirth**: ein ruhiges
 Welterlebnis über Fürsorge, Neugier und den gemeinsamen Neuanfang nach einer
 globalen Krise.
 
-**Live:** [pythia-said.github.io/monteoz-expierence](https://pythia-said.github.io/monteoz-expierence/)
+**Live:** [pythia-said.github.io/monteoz-experience](https://pythia-said.github.io/monteoz-experience/)
 
 Die Website übersetzt die Gründungsdokumente und den ersten
 Wasserfaden-Prototyp in eine eigenständige, responsive Präsentation. Sie zeigt
@@ -37,16 +37,16 @@ Jeder geprüfte Stand auf `main` wird automatisch über GitHub Actions als
 GitHub-Pages-Website veröffentlicht. Der Workflow baut die statischen Dateien,
 prüft sie und übergibt ausschließlich das Exportverzeichnis an GitHub Pages.
 
-## Verbundene Repositories
+## Öffentliches Projektjournal
 
-- [Monte OZ — The Rebirth](https://github.com/pythia-said/MonteOZ_the_rebirth):
-  Vision, Welt, Lore, Designprinzipien und Erlebnisprototypen
-- [MonteOZ Experience](https://github.com/pythia-said/monteoz-expierence):
-  Quellcode dieses Showcases
+Das öffentliche Repository
+[MonteOZ Experience](https://github.com/pythia-said/monteoz-experience)
+enthält den Showcase, die öffentlich lesbare Vision und den dokumentierten
+Stand des Wasserfaden-Prototyps.
 
 ## Bildquellen
 
-- Die Aufnahme des Wasserfaden-Prototyps stammt aus dem öffentlichen
-  MonteOZ-Repository.
+- Die Aufnahme und die Klänge des Wasserfaden-Prototyps stammen aus dem
+  tatsächlich laufenden lokalen Erlebnisprototyp.
 - Die Social-Preview wurde eigens für diesen Showcase mit OpenAI ImageGen
   erstellt.
