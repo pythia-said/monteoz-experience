@@ -57,6 +57,29 @@ const promises = [
   },
 ];
 
+const firstMinutes = [
+  {
+    time: "00–02",
+    title: "Ankommen",
+    text: "Du trittst aus einem reparierten Wetterschutz und hast zunächst keinen Auftrag. Der Hügel darf einfach auf dich wirken.",
+  },
+  {
+    time: "02–04",
+    title: "Spuren lesen",
+    text: "Ein unregelmäßiges Tropfen, dunklere Erde und alte Leitungen lenken deine Aufmerksamkeit – ohne Pfeil und Questmarker.",
+  },
+  {
+    time: "04–07",
+    title: "Zusammenhänge entdecken",
+    text: "Wasser, Pflanzen, Tierspuren und eine umgenutzte Technik erzählen gemeinsam, was an diesem Ort fehlt und was bereits lebt.",
+  },
+  {
+    time: "07–10",
+    title: "Eine Haltung wählen",
+    text: "Du näherst dich, probierst später eine kleine Veränderung – oder beobachtest weiter. Auch bewusstes Warten ist eine lesbare Entscheidung.",
+  },
+];
+
 export default function Home() {
   return (
     <>
@@ -79,15 +102,15 @@ export default function Home() {
           </a>
 
           <nav className="desktop-nav" aria-label="Hauptnavigation">
+            <a href="#wasserfaden">Wasserfaden</a>
+            <a href="#erste-minuten">Erste 10 Minuten</a>
             <a href="#idee">Idee</a>
-            <a href="#erlebnis">Erlebnis</a>
             <a href="#welt">Welt</a>
-            <a href="#prototyp">Prototyp</a>
           </nav>
 
           <a
             className="nav-github"
-            href="https://github.com/pythia-said/MonteOZ_the_rebirth"
+            href="https://github.com/pythia-said/monteoz-experience"
             target="_blank"
             rel="noreferrer"
           >
@@ -101,16 +124,17 @@ export default function Home() {
               <span />
             </summary>
             <nav aria-label="Mobile Navigation">
+              <a href="#wasserfaden">Wasserfaden</a>
+              <a href="#erste-minuten">Erste 10 Minuten</a>
               <a href="#idee">Idee</a>
               <a href="#erlebnis">Erlebnis</a>
               <a href="#welt">Welt</a>
-              <a href="#prototyp">Prototyp</a>
               <a
-                href="https://github.com/pythia-said/MonteOZ_the_rebirth"
+                href="https://github.com/pythia-said/monteoz-experience"
                 target="_blank"
                 rel="noreferrer"
               >
-                Öffentliches Repository ↗
+                Öffentliches Projektjournal ↗
               </a>
             </nav>
           </details>
@@ -139,21 +163,22 @@ export default function Home() {
                 <em>Ein Neuanfang.</em>
               </h1>
               <p className="hero-intro">
-                Monte OZ ist ein ruhiges Welterlebnis über Fürsorge, Neugier und
-                die Frage, wie wir nach einer Krise wieder Zukunft gestalten.
+                Du erkundest einen mediterranen Hügel, liest seine Spuren und
+                entscheidest, wann du eingreifst – und wann du wartest. Der Ort
+                antwortet auf beides.
               </p>
               <div className="hero-actions">
-                <a className="button button-primary" href="#idee">
-                  Monte OZ entdecken
+                <a className="button button-primary" href="#wasserfaden">
+                  Den Wasserfaden erleben
                   <span aria-hidden="true">↓</span>
                 </a>
                 <a
                   className="button button-quiet"
-                  href="https://github.com/pythia-said/MonteOZ_the_rebirth"
+                  href="https://github.com/pythia-said/monteoz-experience"
                   target="_blank"
                   rel="noreferrer"
                 >
-                  Entwicklung verfolgen
+                  Öffentliches Projektjournal
                   <span aria-hidden="true">↗</span>
                 </a>
               </div>
@@ -206,6 +231,101 @@ export default function Home() {
             <p>STAY CURIOUS.</p>
             <span aria-hidden="true" />
             <p>STAY HUMAN.</p>
+          </div>
+        </section>
+
+        <section className="section section-prototype" id="wasserfaden">
+          <div className="page-shell">
+            <div className="prototype-head">
+              <div>
+                <p className="eyebrow">Ein echter Moment aus Etappe A</p>
+                <h2>Ein leises Tropfen. Kein Questmarker.</h2>
+              </div>
+              <p>
+                Du kommst am Schutzraum an, liest den Hang und folgst dem
+                Wasser mit Augen und Ohren. Bei deiner Annäherung wird sein
+                Klang deutlicher – der Ort antwortet, bevor er dir eine
+                Aufgabe gibt.
+              </p>
+            </div>
+
+            <figure className="prototype-figure">
+              <div className="prototype-window">
+                <div className="window-bar" aria-hidden="true">
+                  <span />
+                  <span />
+                  <span />
+                  <p>Wasserfaden — Etappe A</p>
+                  <em>15 Sekunden · echter Prototyp</em>
+                </div>
+                <video
+                  controls
+                  playsInline
+                  preload="metadata"
+                  poster="./images/water-thread-etappe-a.png"
+                >
+                  <source
+                    src="./video/wasserfaden-etappe-a.mp4"
+                    type="video/mp4"
+                  />
+                  <track
+                    default
+                    kind="captions"
+                    src="./video/wasserfaden-etappe-a.vtt"
+                    srcLang="de"
+                    label="Deutsch"
+                  />
+                  Dein Browser kann dieses Video nicht wiedergeben.
+                </video>
+              </div>
+              <figcaption>
+                <span>Heute spielbar · Raum und Wahrnehmung</span>
+                <p>
+                  Kein Render und kein inszeniertes Zielbild: Die Aufnahme
+                  stammt aus dem laufenden, bewusst wegwerfbaren
+                  SpriteKit-Prototyp. Wind, Vögel und Tropfen sind seine
+                  aktuellen Platzhalterklänge.
+                </p>
+              </figcaption>
+            </figure>
+
+            <div className="first-minutes" id="erste-minuten">
+              <div className="first-minutes-head">
+                <p className="eyebrow">Die ersten zehn Minuten</p>
+                <h3>Was du mit deinen Händen an der Welt tatsächlich tust.</h3>
+                <p>
+                  Ein konkreter Erlebnisbogen, den Monte OZ Schritt für Schritt
+                  erprobt. Etappe A belegt bereits Ankunft, Wahrnehmung und
+                  Annäherung; die Entscheidung wird als Nächstes gebaut.
+                </p>
+              </div>
+              <div className="first-minutes-grid">
+                {firstMinutes.map((moment) => (
+                  <article key={moment.time}>
+                    <span>{moment.time} Min.</span>
+                    <h4>{moment.title}</h4>
+                    <p>{moment.text}</p>
+                  </article>
+                ))}
+              </div>
+            </div>
+
+            <div className="prototype-options">
+              <div>
+                <span className="status-kicker">Nächster Erprobungsschritt</span>
+                <p>Wie der Ort auf deine Entscheidung antwortet</p>
+              </div>
+              <div>
+                <span>Wasser zur alten Schale leiten</span>
+                <span>Die Kräutermulde versorgen</span>
+                <span>Den unsteten Verlauf weiter beobachten</span>
+              </div>
+            </div>
+
+            <a className="text-link" href="./wasserfaden/">
+              Wasserfaden und Entwicklungsstand ansehen
+              <span aria-hidden="true">→</span>
+            </a>
           </div>
         </section>
 
@@ -324,66 +444,6 @@ export default function Home() {
           </div>
         </section>
 
-        <section className="section section-prototype" id="prototyp">
-          <div className="page-shell">
-            <div className="prototype-head">
-              <div>
-                <p className="eyebrow">Der erste Erlebnisprototyp</p>
-                <h2>Folge dem Wasser. Oder warte.</h2>
-              </div>
-              <p>
-                Der Wasserfaden prüft einen einzigen Moment: Kann ein Ort
-                Neugier wecken, ohne Questmarker, Zeitdruck oder eine
-                vorgegebene richtige Antwort?
-              </p>
-            </div>
-
-            <figure className="prototype-figure">
-              <div className="prototype-window">
-                <div className="window-bar" aria-hidden="true">
-                  <span />
-                  <span />
-                  <span />
-                  <p>Wasserfaden — Etappe A</p>
-                  <em>Erlebnisprototyp</em>
-                </div>
-                <img
-                  src="./images/water-thread-etappe-a.png"
-                  alt="Der Wasserfaden-Prototyp zeigt einen mediterranen Hang mit Wetterschutz, Olivenbaum, Weg und einem alten Wasserregler."
-                  loading="lazy"
-                />
-              </div>
-              <figcaption>
-                <span>Etappe A · Raum und Wahrnehmung</span>
-                <p>
-                  Ein bewusst wegwerfbarer 2.5D-Prototyp. Keine
-                  Plattformentscheidung, keine finale Grafik — ein ehrlicher
-                  Test der Erfahrung.
-                </p>
-              </figcaption>
-            </figure>
-
-            <div className="prototype-options">
-              <p>Was der Wasserfaden später prüfen soll</p>
-              <div>
-                <span>Zur alten Schale leiten</span>
-                <span>Die Kräutermulde versorgen</span>
-                <span>Den Verlauf beobachten</span>
-              </div>
-            </div>
-
-            <a
-              className="text-link"
-              href="https://github.com/pythia-said/MonteOZ_the_rebirth/tree/prototype/etappe-a-space-and-perception/prototypes/water-thread-spritekit"
-              target="_blank"
-              rel="noreferrer"
-            >
-              Prototyp und Dokumentation ansehen
-              <span aria-hidden="true">↗</span>
-            </a>
-          </div>
-        </section>
-
         <section className="section section-origin">
           <div className="page-shell origin-layout">
             <div className="origin-flame" aria-hidden="true">
@@ -424,19 +484,14 @@ export default function Home() {
             <div className="hero-actions closing-actions">
               <a
                 className="button button-primary"
-                href="https://github.com/pythia-said/MonteOZ_the_rebirth"
+                href="https://github.com/pythia-said/monteoz-experience"
                 target="_blank"
                 rel="noreferrer"
               >
-                Entwicklung auf GitHub
+                Öffentliches Projektjournal
                 <span aria-hidden="true">↗</span>
               </a>
-              <a
-                className="button button-quiet"
-                href="https://github.com/pythia-said/MonteOZ_the_rebirth/blob/main/docs/VISION.md"
-                target="_blank"
-                rel="noreferrer"
-              >
+              <a className="button button-quiet" href="./vision/">
                 Vision lesen
               </a>
             </div>
@@ -462,26 +517,14 @@ export default function Home() {
           </div>
           <nav aria-label="Fußnavigation">
             <a
-              href="https://github.com/pythia-said/MonteOZ_the_rebirth"
+              href="https://github.com/pythia-said/monteoz-experience"
               target="_blank"
               rel="noreferrer"
             >
-              Repository
+              Projektjournal
             </a>
-            <a
-              href="https://github.com/pythia-said/MonteOZ_the_rebirth/tree/main/docs"
-              target="_blank"
-              rel="noreferrer"
-            >
-              Gründungsdokumente
-            </a>
-            <a
-              href="https://github.com/pythia-said/monteoz-expierence"
-              target="_blank"
-              rel="noreferrer"
-            >
-              Showcase-Quellcode
-            </a>
+            <a href="./vision/">Vision</a>
+            <a href="./wasserfaden/">Wasserfaden</a>
           </nav>
           <p className="copyright">
             © 2026 Cloddy Web. Monte OZ befindet sich in Entwicklung.
