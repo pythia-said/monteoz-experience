@@ -7,9 +7,9 @@ globalen Krise.
 **Live:** [pythia-said.github.io/monteoz-experience](https://pythia-said.github.io/monteoz-experience/)
 
 Die Website übersetzt die Gründungsdokumente und den ersten
-Wasserfaden-Prototyp in eine eigenständige, responsive Präsentation. Sie zeigt
-bewusst den aktuellen Entwicklungsstand und behauptet keine bereits fertige
-Spielwelt.
+Prototypen „Die Spur des Wassers“ in eine eigenständige, responsive
+Präsentation. Sie zeigt bewusst den aktuellen Entwicklungsstand und behauptet
+keine bereits fertige Spielwelt.
 
 ## Lokal starten
 
@@ -42,11 +42,11 @@ prüft sie und übergibt ausschließlich das Exportverzeichnis an GitHub Pages.
 Das öffentliche Repository
 [MonteOZ Experience](https://github.com/pythia-said/monteoz-experience)
 enthält den Showcase, die öffentlich lesbare Vision und den dokumentierten
-Stand des Wasserfaden-Prototyps.
+Stand des Prototyps „Die Spur des Wassers“.
 
 ## Bildquellen
 
-- Die Aufnahme und die Klänge des Wasserfaden-Prototyps stammen aus dem
+- Die Aufnahme und die Klänge des Prototyps stammen aus dem
   tatsächlich laufenden lokalen Erlebnisprototyp.
 - Die Social-Preview wurde eigens für diesen Showcase mit OpenAI ImageGen
   erstellt.
