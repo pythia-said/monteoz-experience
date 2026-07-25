@@ -61,12 +61,12 @@ const firstMinutes = [
   {
     time: "00–02",
     title: "Ankommen",
-    text: "Du trittst aus einem reparierten Wetterschutz und hast zunächst keinen Auftrag. Der Hügel darf einfach auf dich wirken.",
+    text: "Du erreichst einen alten Unterstand und hast zunächst keinen Auftrag. Der Hügel darf einfach auf dich wirken.",
   },
   {
     time: "02–04",
     title: "Spuren lesen",
-    text: "Ein unregelmäßiges Tropfen, dunklere Erde und alte Leitungen lenken deine Aufmerksamkeit – ohne Pfeil und Questmarker.",
+    text: "Tropfendes Wasser, dunklere Erde und alte Leitungen lenken deine Aufmerksamkeit – ganz ohne Pfeil oder Aufgabenmarkierung.",
   },
   {
     time: "04–07",
@@ -221,8 +221,8 @@ export default function Home() {
                 </p>
               </div>
               <p className="diorama-caption">
-                Mediterranes Morgenlicht. Ein reparierter Wetterschutz. Ein
-                leises Tropfen, das eine Frage stellt.
+                Mediterranes Morgenlicht. Ein alter Unterstand. Irgendwo tropft
+                Wasser.
               </p>
             </div>
           </div>
@@ -239,13 +239,13 @@ export default function Home() {
             <div className="prototype-head">
               <div>
                 <p className="eyebrow">Ein echter Moment aus Etappe A</p>
-                <h2>Ein leises Tropfen. Kein Questmarker.</h2>
+                <h2>Du hörst Wasser, bevor du es siehst.</h2>
               </div>
               <p>
-                Du kommst am Schutzraum an, liest den Hang und folgst dem
-                Wasser mit Augen und Ohren. Bei deiner Annäherung wird sein
-                Klang deutlicher – der Ort antwortet, bevor er dir eine
-                Aufgabe gibt.
+                Du kommst bei einem einfachen Unterstand an und erkundest den
+                Hang mit Augen und Ohren. Je näher du dem Wasser kommst, desto
+                deutlicher hörst du es. Keine Aufgabenmarkierung weist dir den
+                Weg.
               </p>
             </div>
 
@@ -283,7 +283,7 @@ export default function Home() {
                 <p>
                   Kein Render und kein inszeniertes Zielbild: Die Aufnahme
                   stammt aus dem laufenden, bewusst wegwerfbaren
-                  SpriteKit-Prototyp. Wind, Vögel und Tropfen sind seine
+                  SpriteKit-Prototyp. Wind, Vogelrufe und Wasser sind seine
                   aktuellen Platzhalterklänge.
                 </p>
               </figcaption>
@@ -313,12 +313,12 @@ export default function Home() {
             <div className="prototype-options">
               <div>
                 <span className="status-kicker">Nächster Erprobungsschritt</span>
-                <p>Wie der Ort auf deine Entscheidung antwortet</p>
+                <p>Kann der Ort antworten, ohne die richtige Handlung vorzugeben?</p>
               </div>
               <div>
-                <span>Wasser zur alten Schale leiten</span>
-                <span>Die Kräutermulde versorgen</span>
-                <span>Den unsteten Verlauf weiter beobachten</span>
+                <span>Was verändert sich, wenn du handelst?</span>
+                <span>Was wird sichtbar, wenn du wartest?</span>
+                <span>Welche Folgen zeigen sich erst später?</span>
               </div>
             </div>
 
