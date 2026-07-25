@@ -93,10 +93,10 @@ export default function VisionPage() {
       <section className="detail-cta page-shell">
         <div>
           <p className="eyebrow">Vom Satz zum Erlebnis</p>
-          <h2>Der Wasserfaden prüft diese Haltung an einem einzigen Ort.</h2>
+          <h2>Die Spur des Wassers prüft diese Haltung an einem einzigen Ort.</h2>
         </div>
-        <a className="button button-primary" href="../wasserfaden/">
-          Den Wasserfaden ansehen <span aria-hidden="true">→</span>
+        <a className="button button-primary" href="../spur-des-wassers/">
+          Dem Wasser folgen <span aria-hidden="true">→</span>
         </a>
       </section>
     </main>

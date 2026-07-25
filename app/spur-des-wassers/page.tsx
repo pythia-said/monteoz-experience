@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Der Wasserfaden · Monte OZ",
+  title: "Die Spur des Wassers · Monte OZ",
   description:
     "Der öffentliche Erlebnisprototyp von Monte OZ: Etappe A, aktueller Stand und nächster Erprobungsschritt.",
 };
@@ -9,7 +9,7 @@ export const metadata: Metadata = {
 const currentProof = [
   "Ein einfacher Unterstand als ruhiger Ankunftsort",
   "Ein begrenzter, frei anklickbarer Hang ohne Aufgabenmarkierung",
-  "Wasser, das über Klang, Feuchtigkeit, Mineralränder und Glanz auffindbar ist",
+  "Ein Rinnsal, das durch Klang, feuchten Boden, Mineralränder und Glanz auffindbar wird",
   "Eine Annäherung, die Lautstärke, Stereorichtung und Lesbarkeit verändert",
 ];
 
@@ -19,7 +19,7 @@ const notYetBuilt = [
   "Eine zeitversetzte ökologische Antwort des Ortes",
 ];
 
-export default function WasserfadenPage() {
+export default function SpurDesWassersPage() {
   return (
     <main className="detail-page water-detail">
       <header className="detail-nav page-shell">
@@ -46,9 +46,9 @@ export default function WasserfadenPage() {
         </p>
         <h1>Kann ein Ort Neugier wecken, bevor er eine Aufgabe stellt?</h1>
         <p>
-          Der Wasserfaden isoliert genau diese Frage. Er ist ein
-          wegwerfbarer, lokal gebauter 2.5D-Prototyp – kein Produktfundament
-          und kein Versprechen einer bereits fertigen Spielwelt.
+          Diese kurze Szene geht genau dieser Frage nach. Der lokal gebaute
+          2.5D-Prototyp ist bewusst wegwerfbar – kein Produktfundament und kein
+          Versprechen einer bereits fertigen Spielwelt.
         </p>
       </section>
 
@@ -58,23 +58,23 @@ export default function WasserfadenPage() {
             <span />
             <span />
             <span />
-            <p>Wasserfaden — Etappe A</p>
+            <p>Die Spur des Wassers · Etappe A</p>
             <em>15 Sekunden · Ton einschalten</em>
           </div>
           <video
             controls
             playsInline
             preload="metadata"
-            poster="../images/water-thread-etappe-a.png"
+            poster="../images/spur-des-wassers-etappe-a.png"
           >
             <source
-              src="../video/wasserfaden-etappe-a.mp4"
+              src="../video/spur-des-wassers-etappe-a.mp4"
               type="video/mp4"
             />
             <track
               default
               kind="captions"
-              src="../video/wasserfaden-etappe-a.vtt"
+              src="../video/spur-des-wassers-etappe-a.vtt"
               srcLang="de"
               label="Deutsch"
             />

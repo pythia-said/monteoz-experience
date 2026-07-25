@@ -7,17 +7,26 @@ test("exports the Monte OZ showcase for GitHub Pages", async () => {
     new URL("../out/index.html", import.meta.url),
     "utf8",
   );
+  const visionHtml = await readFile(
+    new URL("../out/vision/index.html", import.meta.url),
+    "utf8",
+  );
+  const sceneHtml = await readFile(
+    new URL("../out/spur-des-wassers/index.html", import.meta.url),
+    "utf8",
+  );
+  const exportedHtml = `${html}${visionHtml}${sceneHtml}`;
 
   assert.match(html, /<html[^>]*lang="de"/i);
   assert.match(html, /<title>Monte OZ — The Rebirth<\/title>/i);
   assert.match(html, /Ein kleiner Hügel\./);
-  assert.match(html, /Den Wasserfaden erleben/);
+  assert.match(html, /Dem Wasser folgen/);
+  assert.match(html, /Folge dem Wasser\. Oder warte\./);
+  assert.match(html, /Die Spur des Wassers · Etappe A/);
   assert.match(html, /Die ersten zehn Minuten/);
-  assert.match(html, /Du hörst Wasser, bevor du es siehst\./);
   assert.match(html, /Irgendwo tropft Wasser\./);
   assert.match(html, /Was wird sichtbar, wenn du wartest\?/);
   assert.match(html, /Wahrnehmen/);
-  assert.match(html, /Wasserfaden/);
   assert.match(html, /Stay Curious\./i);
   assert.match(
     html,
@@ -29,8 +38,8 @@ test("exports the Monte OZ showcase for GitHub Pages", async () => {
   );
   assert.doesNotMatch(html, /MonteOZ_the_rebirth|monteoz-expierence/);
   assert.doesNotMatch(
-    html,
-    /Ein leises Tropfen|Questmarker|Wasser zur alten Schale|Kräutermulde/,
+    exportedHtml,
+    /Ein leises Tropfen|Questmarker|Wasserfaden|Wasser zur alten Schale|Kräutermulde/,
   );
   assert.doesNotMatch(
     html,
@@ -41,24 +50,24 @@ test("exports the Monte OZ showcase for GitHub Pages", async () => {
     access(new URL("../out/.nojekyll", import.meta.url)),
     access(
       new URL(
-        "../out/images/water-thread-etappe-a.png",
+        "../out/images/spur-des-wassers-etappe-a.png",
         import.meta.url,
       ),
     ),
     access(
       new URL(
-        "../out/video/wasserfaden-etappe-a.mp4",
+        "../out/video/spur-des-wassers-etappe-a.mp4",
         import.meta.url,
       ),
     ),
     access(
       new URL(
-        "../out/video/wasserfaden-etappe-a.vtt",
+        "../out/video/spur-des-wassers-etappe-a.vtt",
         import.meta.url,
       ),
     ),
     access(new URL("../out/vision/index.html", import.meta.url)),
-    access(new URL("../out/wasserfaden/index.html", import.meta.url)),
+    access(new URL("../out/spur-des-wassers/index.html", import.meta.url)),
     access(new URL("../out/og.png", import.meta.url)),
   ]);
 });

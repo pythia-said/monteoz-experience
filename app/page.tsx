@@ -66,7 +66,7 @@ const firstMinutes = [
   {
     time: "02–04",
     title: "Spuren lesen",
-    text: "Tropfendes Wasser, dunklere Erde und alte Leitungen lenken deine Aufmerksamkeit – ganz ohne Pfeil oder Aufgabenmarkierung.",
+    text: "Zwischen den Steinen tropft Wasser. Feuchte Erde und eine alte Rinne zeichnen eine Spur den Hang hinab – ganz ohne Pfeil oder Aufgabenmarkierung.",
   },
   {
     time: "04–07",
@@ -102,7 +102,7 @@ export default function Home() {
           </a>
 
           <nav className="desktop-nav" aria-label="Hauptnavigation">
-            <a href="#wasserfaden">Wasserfaden</a>
+            <a href="#spur-des-wassers">Die Spur des Wassers</a>
             <a href="#erste-minuten">Erste 10 Minuten</a>
             <a href="#idee">Idee</a>
             <a href="#welt">Welt</a>
@@ -124,7 +124,7 @@ export default function Home() {
               <span />
             </summary>
             <nav aria-label="Mobile Navigation">
-              <a href="#wasserfaden">Wasserfaden</a>
+              <a href="#spur-des-wassers">Die Spur des Wassers</a>
               <a href="#erste-minuten">Erste 10 Minuten</a>
               <a href="#idee">Idee</a>
               <a href="#erlebnis">Erlebnis</a>
@@ -168,8 +168,8 @@ export default function Home() {
                 antwortet auf beides.
               </p>
               <div className="hero-actions">
-                <a className="button button-primary" href="#wasserfaden">
-                  Den Wasserfaden erleben
+                <a className="button button-primary" href="#spur-des-wassers">
+                  Dem Wasser folgen
                   <span aria-hidden="true">↓</span>
                 </a>
                 <a
@@ -217,7 +217,7 @@ export default function Home() {
                 <span className="stone stone-two" aria-hidden="true" />
                 <p className="diorama-note">
                   <span>ERSTER ORT</span>
-                  Der Wasserfaden
+                  Die Spur des Wassers
                 </p>
               </div>
               <p className="diorama-caption">
@@ -234,18 +234,17 @@ export default function Home() {
           </div>
         </section>
 
-        <section className="section section-prototype" id="wasserfaden">
+        <section className="section section-prototype" id="spur-des-wassers">
           <div className="page-shell">
             <div className="prototype-head">
               <div>
                 <p className="eyebrow">Ein echter Moment aus Etappe A</p>
-                <h2>Du hörst Wasser, bevor du es siehst.</h2>
+                <h2>Folge dem Wasser. Oder warte.</h2>
               </div>
               <p>
-                Du kommst bei einem einfachen Unterstand an und erkundest den
-                Hang mit Augen und Ohren. Je näher du dem Wasser kommst, desto
-                deutlicher hörst du es. Keine Aufgabenmarkierung weist dir den
-                Weg.
+                Bei einem einfachen Unterstand hörst du Wasser. Zwischen den
+                Steinen fließt noch ein Rinnsal; im feuchten Boden zeichnet
+                sich seine Spur ab. Du entscheidest selbst, ob du ihr folgst.
               </p>
             </div>
 
@@ -255,23 +254,23 @@ export default function Home() {
                   <span />
                   <span />
                   <span />
-                  <p>Wasserfaden — Etappe A</p>
+                  <p>Die Spur des Wassers · Etappe A</p>
                   <em>15 Sekunden · echter Prototyp</em>
                 </div>
                 <video
                   controls
                   playsInline
                   preload="metadata"
-                  poster="./images/water-thread-etappe-a.png"
+                  poster="./images/spur-des-wassers-etappe-a.png"
                 >
                   <source
-                    src="./video/wasserfaden-etappe-a.mp4"
+                    src="./video/spur-des-wassers-etappe-a.mp4"
                     type="video/mp4"
                   />
                   <track
                     default
                     kind="captions"
-                    src="./video/wasserfaden-etappe-a.vtt"
+                    src="./video/spur-des-wassers-etappe-a.vtt"
                     srcLang="de"
                     label="Deutsch"
                   />
@@ -322,8 +321,8 @@ export default function Home() {
               </div>
             </div>
 
-            <a className="text-link" href="./wasserfaden/">
-              Wasserfaden und Entwicklungsstand ansehen
+            <a className="text-link" href="./spur-des-wassers/">
+              Mehr zur Szene und ihrem Entwicklungsstand
               <span aria-hidden="true">→</span>
             </a>
           </div>
@@ -524,7 +523,7 @@ export default function Home() {
               Projektjournal
             </a>
             <a href="./vision/">Vision</a>
-            <a href="./wasserfaden/">Wasserfaden</a>
+            <a href="./spur-des-wassers/">Die Spur des Wassers</a>
           </nav>
           <p className="copyright">
             © 2026 Cloddy Web. Monte OZ befindet sich in Entwicklung.
