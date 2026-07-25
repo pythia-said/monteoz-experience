@@ -852,7 +852,7 @@ summary {
   display: grid;
   grid-template-columns: minmax(0, 1fr) minmax(330px, 0.68fr);
   gap: clamp(36px, 6vw, 78px);
-  align-items: end;
+  align-items: start;
 }
 
 .section-lead {

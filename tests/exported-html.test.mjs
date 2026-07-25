@@ -13,6 +13,9 @@ test("exports the Monte OZ showcase for GitHub Pages", async () => {
   assert.match(html, /Ein kleiner Hügel\./);
   assert.match(html, /Den Wasserfaden erleben/);
   assert.match(html, /Die ersten zehn Minuten/);
+  assert.match(html, /Du hörst Wasser, bevor du es siehst\./);
+  assert.match(html, /Irgendwo tropft Wasser\./);
+  assert.match(html, /Was wird sichtbar, wenn du wartest\?/);
   assert.match(html, /Wahrnehmen/);
   assert.match(html, /Wasserfaden/);
   assert.match(html, /Stay Curious\./i);
@@ -25,6 +28,10 @@ test("exports the Monte OZ showcase for GitHub Pages", async () => {
     /\/monteoz-experience\/_next\/static\//,
   );
   assert.doesNotMatch(html, /MonteOZ_the_rebirth|monteoz-expierence/);
+  assert.doesNotMatch(
+    html,
+    /Ein leises Tropfen|Questmarker|Wasser zur alten Schale|Kräutermulde/,
+  );
   assert.doesNotMatch(
     html,
     /codex-preview|Your site is taking shape|react-loading-skeleton/i,

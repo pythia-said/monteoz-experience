@@ -7,16 +7,16 @@ export const metadata: Metadata = {
 };
 
 const currentProof = [
-  "Ein gebrauchter Schutzraum als verständlicher Ankunftsort",
-  "Ein begrenzter, frei anklickbarer Hang ohne Questmarker",
+  "Ein einfacher Unterstand als ruhiger Ankunftsort",
+  "Ein begrenzter, frei anklickbarer Hang ohne Aufgabenmarkierung",
   "Wasser, das über Klang, Feuchtigkeit, Mineralränder und Glanz auffindbar ist",
   "Eine Annäherung, die Lautstärke, Stereorichtung und Lesbarkeit verändert",
 ];
 
 const notYetBuilt = [
-  "Wasser zur alten Schale oder zur Kräutermulde umleiten",
-  "Den ursprünglichen Verlauf bewusst beobachten",
-  "Ökologische Folgen und eine zweite Antwort des Ortes erfahren",
+  "Eine kleine, selbst gewählte Veränderung am Wasserlauf",
+  "Bewusstes Abwarten als ebenso lesbare Entscheidung",
+  "Eine zeitversetzte ökologische Antwort des Ortes",
 ];
 
 export default function WasserfadenPage() {
@@ -110,8 +110,8 @@ export default function WasserfadenPage() {
           <blockquote>Du folgst keinem Pfeil. Du folgst einer Veränderung.</blockquote>
           <div className="detail-columns">
             <p>
-              Am Anfang ist das Tropfen leise und seitlich verortet. Mit jedem
-              Schritt werden Klang und sichtbare Spuren deutlicher. Der
+              Am Anfang hörst du das Wasser nur leise und von der Seite. Mit
+              jedem Schritt werden Klang und sichtbare Spuren deutlicher. Der
               umgenutzte Regler wird erst aus der Nähe lesbar.
             </p>
             <p>
