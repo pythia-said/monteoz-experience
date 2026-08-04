@@ -30,7 +30,7 @@ test("exports the Monte OZ showcase for GitHub Pages", async () => {
   assert.match(html, /Stay Curious\./i);
   assert.match(
     html,
-    /https:\/\/pythia-said\.github\.io\/monteoz-experience\/og\.png/,
+    /https:\/\/live-oz\.github\.io\/monteoz-experience\/og\.png/,
   );
   assert.match(
     html,

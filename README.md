@@ -4,7 +4,7 @@ Der öffentliche Showcase für **Monte OZ — The Rebirth**: ein ruhiges
 Welterlebnis über Fürsorge, Neugier und den gemeinsamen Neuanfang nach einer
 globalen Krise.
 
-**Live:** [pythia-said.github.io/monteoz-experience](https://pythia-said.github.io/monteoz-experience/)
+**Live:** [live-oz.github.io/monteoz-experience](https://live-oz.github.io/monteoz-experience/)
 
 Die Website übersetzt die Gründungsdokumente und den ersten
 Prototypen „Die Spur des Wassers“ in eine eigenständige, responsive
@@ -40,7 +40,7 @@ prüft sie und übergibt ausschließlich das Exportverzeichnis an GitHub Pages.
 ## Öffentliches Projektjournal
 
 Das öffentliche Repository
-[MonteOZ Experience](https://github.com/pythia-said/monteoz-experience)
+[MonteOZ Experience](https://github.com/live-oz/monteoz-experience)
 enthält den Showcase, die öffentlich lesbare Vision und den dokumentierten
 Stand des Prototyps „Die Spur des Wassers“.
 

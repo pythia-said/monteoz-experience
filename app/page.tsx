@@ -110,7 +110,7 @@ export default function Home() {
 
           <a
             className="nav-github"
-            href="https://github.com/pythia-said/monteoz-experience"
+            href="https://github.com/live-oz/monteoz-experience"
             target="_blank"
             rel="noreferrer"
           >
@@ -130,7 +130,7 @@ export default function Home() {
               <a href="#erlebnis">Erlebnis</a>
               <a href="#welt">Welt</a>
               <a
-                href="https://github.com/pythia-said/monteoz-experience"
+                href="https://github.com/live-oz/monteoz-experience"
                 target="_blank"
                 rel="noreferrer"
               >
@@ -174,7 +174,7 @@ export default function Home() {
                 </a>
                 <a
                   className="button button-quiet"
-                  href="https://github.com/pythia-said/monteoz-experience"
+                  href="https://github.com/live-oz/monteoz-experience"
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -483,7 +483,7 @@ export default function Home() {
             <div className="hero-actions closing-actions">
               <a
                 className="button button-primary"
-                href="https://github.com/pythia-said/monteoz-experience"
+                href="https://github.com/live-oz/monteoz-experience"
                 target="_blank"
                 rel="noreferrer"
               >
@@ -516,7 +516,7 @@ export default function Home() {
           </div>
           <nav aria-label="Fußnavigation">
             <a
-              href="https://github.com/pythia-said/monteoz-experience"
+              href="https://github.com/live-oz/monteoz-experience"
               target="_blank"
               rel="noreferrer"
             >

@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 const siteUrl = new URL(
-  "https://pythia-said.github.io/monteoz-experience/",
+  "https://live-oz.github.io/monteoz-experience/",
 );
 
 export const metadata: Metadata = {
